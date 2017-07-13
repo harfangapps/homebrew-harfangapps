@@ -1,8 +1,8 @@
 class RegisCompanion < Formula
   desc "Command-line tool that provides advanced features for the Regis Mac App."
   homepage "https://github.com/harfangapps/regis-companion"
-  url "https://github.com/harfangapps/regis-companion/archive/v0.0.8.tar.gz"
-  sha256 "c89c0bcce73bedb5c524520ca3c14279de7dadaaac47f140fc747c69ce2733b1"
+  url "https://github.com/harfangapps/regis-companion/archive/v0.0.9.tar.gz"
+  sha256 "12ecbe1900fa7e5465f3600777adc1656675b4ae1f3ff9416426097aa2d91a20"
 
   depends_on "go" => :build
 
