@@ -20,6 +20,6 @@ class RegisCompanion < Formula
   end
 
   test do
-    system "#{bin}/program", "--version"
+    system "#{bin}/regis-companion", "--version"
   end
 end
