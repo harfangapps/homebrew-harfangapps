@@ -15,7 +15,7 @@ class RegisCompanion < Formula
     ln_s buildpath, "src/github.com/harfangapps/regis-companion"
 
     system "go", "build", "-ldflags",
-           "-X github.com/harfangapps/regis-companion/server.Version=#{version}",
+           "-X github.com/harfangapps/regis-companion/server.Version=v#{version}",
            "-o", bin/"regis-companion", "github.com/harfangapps/regis-companion"
   end
 
